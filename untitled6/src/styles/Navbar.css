@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.nav-wrapper {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.navelements {
+    display: flex;
+    align-items: center;
+}
+
+.navelements a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.navelements a:hover {
+    color: #4573E6;
+}
+
+.konto {
+    display: flex;
+    align-items: center;
+}
+
+.zaloguj,
+.wyloguj {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.zaloguj:hover,
+.wyloguj:hover {
+    color: #4573E6;
+}
